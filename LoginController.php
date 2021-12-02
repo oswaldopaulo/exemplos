@@ -56,7 +56,7 @@ class LoginController extends Controller
             
         ], $messages);
         
-        $secretKey = '6Lew0MoaAAAAANYt9d1EFVSH7RkOqFOlRdOiy2uE';
+        $secretKey = '';
         
         // See https://developers.google.com/recaptcha/docs/verify#api-request
         $fields = array(
