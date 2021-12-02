@@ -120,7 +120,7 @@ class LoginController extends Controller
 	        
 	    ], $messages);
 	    
-	    $secretKey = '6Ld828oaAAAAAIrgrkhSkiQ5zBPslFy72J8swdpC';
+	    $secretKey = '';
 	    
 	    if(empty($_POST['gresponse']))  return response()->json(['error'=>'2']);
 	        
